@@ -1,0 +1,23 @@
+h2{
+    color:rgb(99, 97, 13)   
+  }
+  h3{
+    color:rgb(107, 117, 16)
+  }
+  
+  p{
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(156, 170, 102)
+  }
+
+  body{
+      background-color: rgb(240, 238, 223);
+
+  }
+
+  div{
+    align-items: center;
+    text-align: center;
+    font-size:medium；
+  }
+  

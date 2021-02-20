@@ -1,0 +1,26 @@
+h1{
+    color:rgb(133, 221, 214);
+    position:flex;
+    align-items: center;
+    text-align: center;
+    font-family:fantasy;
+}
+.nav{
+    position: fixed;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width:100%;
+    font-family: fantasy;
+}
+
+.bar{
+    display:inline;
+    padding: 8px;
+    background-color: #dddddd;
+}
+
+.bar:hover{
+    background-color:rgb(144, 182, 238);
+}
+
