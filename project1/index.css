@@ -1,0 +1,25 @@
+p:first-child{
+     font-family:'Courier New', Courier, monospace;
+     color:thistle;
+}	
+
+h2{
+  color:rgb(62, 75, 66)   
+}
+h3{
+  color:rgb(139, 196, 177)
+}
+
+/* ol{
+  font-family: Arial, Helvetica, sans-serif;
+  color:rgb(148, 192, 168)
+} */
+
+/* ul{
+   font-family:Arial, Helvetica, sans-serif;
+   color:rgb(157, 209, 179)
+} */
+
+body{
+    background-color:rgb(249, 250, 237)
+}

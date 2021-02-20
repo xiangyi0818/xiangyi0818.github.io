@@ -1,0 +1,42 @@
+h2{
+    color:rgb(66, 97, 201);
+    align-items: center;
+    text-align: center;   
+  }
+  p{
+    color:rgb(95, 95, 150)
+  }
+
+  body{
+      background-color:rgb(223, 224, 240)
+  }
+
+  .hobby{
+    align-items: center;
+    text-align: center;
+    font-size:medium；   
+  }
+
+.container {
+    min-height:100%;
+    width:100%;
+    display: grid;
+    /* grid-template-rows: 1fr 4fr 1fr; */
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "col-1 col-2 col-3 col-4"
+        ;
+        }
+.col-1{
+        grid-area: col-1;
+        }
+.col-2{
+        grid-area: col-2;
+        }
+
+.col-3{
+        grid-area: col-3;
+        }
+.col-4{
+        grid-area: col-4;
+        }
