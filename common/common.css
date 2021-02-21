@@ -8,7 +8,7 @@ h1{
 .nav{
     position: fixed;
     list-style-type: none;
-    margin: 0;
+    margin:0;
     padding: 0;
     width:100%;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -53,13 +53,43 @@ h1{
    /* p{
       font-size:medium;
    } */
+     
+   .container {
+    min-height:100%;
+    width:100%;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+    grid-template-areas: 
+    "col-1"
+    "col-2" 
+    "col-3" 
+    "col-4"
+        ;
+        }
+.col-1{
+        grid-area: col-1;
+        }
+.col-2{
+        grid-area: col-2;
+        }
+
+.col-3{
+        grid-area: col-3;
+        }
+.col-4{
+        grid-area: col-4;
+        }
+
 
  .nav{
     /* position: fixed; */
     bottom: 0;
     width: 100%;
-    margin-top:50px ;
-}
+    /* margin-top:50px ; */
+ }
+
+
 
 }
  
@@ -68,3 +98,4 @@ li a.active {
     background-color:rgb(144, 182, 238);
     color: rgb(12, 12, 12);
 }
+
