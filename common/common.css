@@ -24,7 +24,12 @@ h1{
 .bar:hover{
     background-color:rgb(144, 182, 238);
 }
-
+/* p:hover{
+    background-color:rgb(178, 198, 235);
+  } */
+  h1:hover{
+      color:darkorchid;
+  }
 @media only screen and (max-width: 600px) {
     .bar {
       font-size:large;
@@ -35,14 +40,25 @@ h1{
         background-color:rgb(182, 201, 236)
     }
 
-   p{
+    h1{
+        color:lightseagreen;
+    }
+    h3{
+        font-size:medium;
+    }
+    h2{
+        font-size:large;
+    }
+
+   /* p{
       font-size:medium;
-   }
+   } */
 
  .nav{
-    position: fixed;
+    /* position: fixed; */
     bottom: 0;
     width: 100%;
+    margin-top:50px ;
 }
 
 }
