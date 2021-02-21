@@ -101,7 +101,7 @@ h1{
 
 }
  
-li a.active {
+.active {
     padding: 8px;
     background-color:rgb(144, 182, 238);
     color: rgb(12, 12, 12);
