@@ -11,7 +11,11 @@ h3{
 }
 
 .school:hover{
-  color:rgb(212, 202, 57);
+  background-color:rgb(230, 227, 176);
+}
+
+p:hover{
+  background-color:rgb(178, 198, 235);
 }
 
 /* ol{

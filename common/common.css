@@ -25,21 +25,26 @@ h1{
     background-color:rgb(144, 182, 238);
 }
 
-@media screen and (max-width: 600px) {
-    .nav {
+@media only screen and (max-width: 600px) {
+    .bar {
       font-size:large;
       width: 100%;
     }
 
-  body{
-      font-size:large;
-  }
+    body{
+        background-color:rgb(182, 201, 236)
+    }
+
+   p{
+      font-size:medium;
+   }
 
  .nav{
     position: fixed;
     bottom: 0;
     width: 100%;
 }
+
 }
  
 li a.active {
