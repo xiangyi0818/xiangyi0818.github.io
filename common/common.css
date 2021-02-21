@@ -64,7 +64,8 @@ h1{
     "col-1"
     "col-2" 
     "col-3" 
-    "col-4"
+    "col-4";
+    grid-row-gap:20px;
         ;
         }
 .col-1{
@@ -81,9 +82,16 @@ h1{
         grid-area: col-4;
         }
 
+    img {
+        position: relative;
+        /* left: 0px;
+        top: 0px; */
+        z-index: -1;
+          }
+
 
  .nav{
-    /* position: fixed; */
+    position: fixed;
     bottom: 0;
     width: 100%;
     /* margin-top:50px ; */
